@@ -15,7 +15,7 @@ class _FavState extends State<Fav> {
         width: MediaQuery.of(context).size.width - 40,
         child: ListView(
           children: [
-            QuestionPaperCard(imageLocation: "question_paper/paper1.jpg", title: "Question Paper1",),
+            QuestionPaperCard(imageLocation: "question_paper/paper1.jpg", title: "Question Paper1"),
             QuestionPaperCard(imageLocation: "question_paper/paper2.jpg", title: "Question Paper2",),
             QuestionPaperCard(imageLocation: "question_paper/paper3.jpg", title:  "Question Paper3",),
             QuestionPaperCard(imageLocation: "question_paper/paper4.jpg",title: "Question Paper4",),

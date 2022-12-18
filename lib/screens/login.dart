@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'userpage.dart';
 
 class Login extends StatelessWidget {
   const Login({Key? key}) : super(key: key);
@@ -7,14 +8,11 @@ class Login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      title: _title,
-      home: Scaffold(
-        appBar: AppBar(title: const Text(_title),
-          backgroundColor: Colors.orange[700],
-        ),
-        body: const MyStatefulWidget(),
+    return  Scaffold(
+      appBar: AppBar(title: const Text(_title),
+        backgroundColor: Colors.orange[700],
       ),
+      body: const MyStatefulWidget(),
     );
   }
 }
@@ -100,8 +98,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
                 child: ElevatedButton(
                   onPressed: () {
                     {
-                      var fauth = FirebaseAuth.instance;
-                      fauth.signInWithEmailAndPassword(email: username, password: password);
+                      Navigator.push(context, MaterialPageRoute(builder: (context) => UserPage()));
                     }
                   },
                   child: const Text('Login',

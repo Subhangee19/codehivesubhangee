@@ -8,6 +8,7 @@ import 'screens/home.dart';
 import 'screens/post.dart';
 import 'screens/userpage.dart';
 import 'screens/mainscreen.dart';
+import 'screens/login.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -65,7 +66,7 @@ class _ScreensState extends State<Screens> {
     Home(),
     Fav(),
     Post(),
-    UserPage()
+    Login(),
   ];
 
   dynamic _onItemTapped(int index) {
@@ -81,7 +82,7 @@ class _ScreensState extends State<Screens> {
             Navigator.push(
                 context, MaterialPageRoute(builder: (context) => MainScreen()));
           },
-          child: Icon(Icons.add),
+          child: Icon(Icons.camera),
         ),
         appBar: AppBar(
           title: Text('CodeHive'),
