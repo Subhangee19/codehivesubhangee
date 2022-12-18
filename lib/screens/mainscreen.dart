@@ -11,7 +11,6 @@ class MainScreen extends StatefulWidget {
 class _MainScreenState extends State<MainScreen> {
   late List<CameraDescription> cameras;
   late CameraController cameraController;
-
   int direction = 0;
 
   @override

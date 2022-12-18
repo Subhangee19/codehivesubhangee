@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "825514846767",
+    "project_id": "codehiveapp",
+    "storage_bucket": "codehiveapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825514846767:android:ebf9dc6a73d5f7aad0b4da",
+        "android_client_info": {
+          "package_name": "com.example.codehive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "825514846767-pbgdd2gnu480meo3f5d35ibu7d8069k9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-qMyfaPGnuzH_myLQ0l1_ahpRvNRCeus"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "825514846767-pbgdd2gnu480meo3f5d35ibu7d8069k9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
